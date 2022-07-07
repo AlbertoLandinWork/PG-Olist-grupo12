@@ -24,7 +24,8 @@ Realizar un análisis el cual nos permita:
 
 ## **4. Fuera de alcance:**
 
-Al no contar con los datos de los costos de campañas de marketing, es imposible calcular la rentabilidad real de cada una de ellas, por lo que nos limitaremos a presentar los ingresos de cada una.
+ Al no contar con los datos de los costos de campañas de marketing, es imposible calcular la rentabilidad real de cada una de ellas, por lo que nos limitaremos a presentar los ingresos de cada una.
+ Como poseemos datos hasta el año 2018, no será posible identificar los efectos que tuvo la pandemia en el patrón de consumo de los usuarios de Olist.
 
 ## **5. Solución propuesta:**
 Haremos un primer acercamiento a los datos con python para entender su estructura e integridad, detectar los KPI's y hacer los cambios que consideremos pertinentes.  
