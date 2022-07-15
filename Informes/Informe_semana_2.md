@@ -6,7 +6,7 @@
   
 ## **2. Documentación**
 Requisitos para ejecutar la app:
-- Instalar Docker version 4.8.1 o superior [](https://www.docker.com/products/docker-desktop/)
+- Instalar Docker version 4.8.1 o superior [Docker download page](https://www.docker.com/products/docker-desktop/)
 - Descargar el repositorio del proyecto
 
 Una vez instalador Docker y descagado el repositorio del proyecto, seguir las siguientes instrucciones:
@@ -22,20 +22,24 @@ Una vez instalador Docker y descagado el repositorio del proyecto, seguir las si
 
 Con esto, ya tendremos nuestra app ejecutando en el ambiente docker, podemos comprobarlo abriendo el navegador y entrando a:
 
-Hadoop:  [](http://localhost:9870)
-HUE: [](http://localhost:8888)
-Spark: [](http://localhost:8080)
+Hadoop:  [http://localhost:9870](http://localhost:9870)  
+
+HUE: [http://localhost:8888](http://localhost:8888)  
+
+Spark: [http://localhost:8080](http://localhost:8080)  
 
 
 
-## **3. Pipelines para alimentar el DW**
-![](/librerias.png)
-![](/ingesta.png)
-![](/orderItems.png)
-![](/CLOSED_DEALS.png)
-![](/payments.png)
-![](/products.png)
-![](/carga.png)
+
+## **3. Pipeline para alimentar el DW**
+### **Para la extracción, tranformación y carga de datos, hicimos un script en lenguaje pyspark:**
+![](/images/librerias.png)
+![](/images/ingesta.png)
+![](/images/orderItems.png)
+![](/images/CLOSED_DEALS.png)
+![](/images/payments.png)
+![](/images/products.png)
+![](/images/carga.png)
 
 ## **4. Validación de datos**
   El presente trabajo consta de una consistente vocación por la conservación y presentación de datos que sean claros, estén limpios y tengan poder explicativo de los distintos fenómenos que van a ser estudiados. 
