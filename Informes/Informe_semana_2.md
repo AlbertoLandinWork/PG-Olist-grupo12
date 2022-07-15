@@ -5,12 +5,39 @@
   [Diagrama dimensiones](https://user-images.githubusercontent.com/99231030/179021043-2ffed5d8-f134-4eac-a795-06a3c57a54b6.jpg)
   
 ## **2. Documentación**
+Requisitos para ejecutar la app:
+- Instalar Docker version 4.8.1 o superior [](https://www.docker.com/products/docker-desktop/)
+- Descargar el repositorio del proyecto
+
+Una vez instalador Docker y descagado el repositorio del proyecto, seguir las siguientes instrucciones:
+- Entrar a la carpeta ProyectoDocker desde el terminal y ejecutar `sudo docker-compose up -d`
+- Ejecutar el siguiente comando `sudo docker cp hive-site.xml spark-master:/spark/conf/hive-site.xml`
+- Ejecutar `sudo docker cp data namenode:/data`
+- Entrar a la consola de hadoop con `sudo docker exec -it namenode bash` 
+- Ejecutar `hdfs dfs -put data /data`
+- Salir de la consola de hadoop con `exit`
+- Ingestar el archivo normalizacion.py al contenedor de spark con `sudo docker cp normalizacion.py spark-master:normalizacion.py`
+- Entrar al contenedor de spark master con `sudo docker exec -it spark-master bash`
+- Ejecutar `/spark/bin/spark-submit --master spark://spark-master:7077 normalizacion.py`
+
+Con esto, ya tendremos nuestra app ejecutando en el ambiente docker, podemos comprobarlo abriendo el navegador y entrando a:
+
+Hadoop:  [](http://localhost:9870)
+HUE: [](http://localhost:8888)
+Spark: [](http://localhost:8080)
+
+
 
 ## **3. Pipelines para alimentar el DW**
+![](/librerias.png)
+![](/ingesta.png)
+![](/orderItems.png)
+![](/CLOSED_DEALS.png)
+![](/payments.png)
+![](/products.png)
+![](/carga.png)
 
-## **4. Automatización**
-
-## **5. Validación de datos**
+## **4. Validación de datos**
   El presente trabajo consta de una consistente vocación por la conservación y presentación de datos que sean claros, estén limpios y tengan poder explicativo de los distintos fenómenos que van a ser estudiados. 
    Las principales transformaciones que sufrieron los datos obtenidos fueron:
    - Eliminación de columnas con baja precisión, ya sea por la cantidad de valores nulos, el parecido con otra columna o la definición de la variable en sí misma.
