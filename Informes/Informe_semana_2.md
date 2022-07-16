@@ -7,9 +7,10 @@
 ## **2. Documentación**
 Requisitos para ejecutar la app:
 - Instalar Docker version 4.8.1 o superior [Docker download page](https://www.docker.com/products/docker-desktop/)
-- Descargar el repositorio del proyecto
+- [Descargar el repositorio](https://drive.google.com/file/d/1I_Bg069ysBUWIWGFJGSDB2xF7Os_zRtu/view?usp=sharing)
 
 Una vez instalado Docker y descagado el repositorio del proyecto, seguir las siguientes instrucciones:
+- Extrae el repositorio
 - Desde el terminal entra a la carpeta "Docker-Hadoop-Hive-Spark-HUE" y ejecuta el siguiente comando para levantar el ambiente de docker: `sudo docker-compose up -d`
 - Ejecuta el siguiente comando para añadir configuraciones a spark: `sudo docker cp hive-site.xml spark-master:/spark/conf/hive-site.xml`
 - Ejecuta este comando para ingestar los datasets al contenedor de hadoop: `sudo docker cp data namenode:/data`
