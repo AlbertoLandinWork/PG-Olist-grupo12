@@ -7,6 +7,7 @@
 ## **2. Documentación**
 Requisitos para ejecutar la app:
 - Instalar Docker version 4.8.1 o superior [Docker download page](https://www.docker.com/products/docker-desktop/)
+- [Instalar Docker compose](https://docs.docker.com/compose/install/)
 - [Descargar el repositorio](https://drive.google.com/file/d/1I_Bg069ysBUWIWGFJGSDB2xF7Os_zRtu/view?usp=sharing)
 
 Una vez instalado Docker y descagado el repositorio del proyecto, seguir las siguientes instrucciones:
