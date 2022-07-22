@@ -18,10 +18,6 @@
   Meta: 5     
   Propuesta para mejorar el análisis: Añadir un sistema que permita al usuario puntuar según diferentes motivos tales como: Tiempo de entrega, calidad del producto, diseño de la página de ventas, etc.
   
-- Maximizar el volumen de recaudación de dinero por campañas de marketing diferentes a Búsquedas orgánicas: *********** <------------ 
-> Recaudación de ventas por Búsquedas orgánicas (meta): 207.02k R$  
-  Recaudación de ventas por campañas en redes sociales: 43.48k R$  
-  Propuesta de mejora: Registrar todas las fuentes de visitas al E-commerce para conocer la tasa de rebote, ya que actualmente vemos que el mayor número de ingresos monetarios por campaña es desconocido.
 
 **Métricas**
 
@@ -48,7 +44,7 @@ Con el fin de lograr mayor compromiso y fidelidad de los mejores vendedores, los
 La idea es que la plataforma muestre una insignia en cada uno de estos compradores así los consumidores se ven más tentados por estos productos y los vendedores tienen incentivos a mejorar su oferta.
 
 ## **3.Modelo predictivo**  
-Por medio de un modelo de regresión lineal, hicimos una calculadora con interfaz web que calcula el costo de envío según el peso, volumen y la región donde se encuentra el [[[¿VENDEDOR O COMPRADOR?]]]
+Por medio de un modelo de regresión lineal, hicimos una calculadora con interfaz web que calcula el costo de envío según el peso, volumen y la región donde se encuentra el comprador.
 ![](../images/Calculadora.jpeg)
 
 
