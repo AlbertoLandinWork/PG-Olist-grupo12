@@ -54,16 +54,20 @@ Con esto, ya tendremos nuestra app ejecutando en el ambiente docker y nuestro da
 
 > [Hadoop web interface:](http://localhost:9870) Aquí podras ver todos los archivos almacenados en hadoop  
 > [HUE web interface:](http://localhost:8888) Aquí puedes podrás ejecutar querys HQL sobre los datos ingestados  
->[Spark web interface:](http://localhost:8080) Aquí puedes ver el estado de los procesos realizados con spark  
+> [Spark web interface:](http://localhost:8080) Aquí puedes ver el estado de los procesos realizados con spark  
 ---
 # Ambiente de trabajo convencional:
 
 ## Guía rápida de uso
-* Instalar y ejecutar docker
-* ![Descargar el repositorio](https://drive.google.com/file/d/1fQl9lNeXWM1ZT0PY-4K1Gm3auXJKeugc/view)
-* ir a carpeta ambiente_docker_de_respaldo/Docker_pgAdmin_Postgres
-* ejecutar $ sudo docker-compose up
+- Instalar Docker version 4.8.1 o superior [Docker download page](https://www.docker.com/products/docker-desktop/)
+- [Instalar Docker compose](https://docs.docker.com/compose/install/)
+- [Descargar el repositorio](https://drive.google.com/file/d/1fQl9lNeXWM1ZT0PY-4K1Gm3auXJKeugc/view)
+- Ir a la carpeta ambiente_docker_de_respaldo/Docker_pgAdmin_Postgres
+- Dentro de la carpeta ejecutar en la terminal el siguiente comando: `sudo docker-compose up`
 
+Con esto, ya tendremos nuestra app ejecutando con nuestros datasets procesados y almacenados en postgres.
+Para ver nuestra base de datos y ejecutar querys, podemos hacerlo en pgAdmin, por su interfaz web:
+> [PgAdmin web interface](http://localhost:50508)
 
 ## Herramientas utilizadas en el proyecto
 * Docker
@@ -78,4 +82,6 @@ Con esto, ya tendremos nuestra app ejecutando en el ambiente docker y nuestro da
 * pandas 1.4.1 
 * psycopg2-binary 2.9.3
 ---
+
+
 [https://drive.google.com/drive/folders/1DHrP4donr4Es-3hoM1nOg7reLCX7aTRT?usp=sharing](https://drive.google.com/drive/folders/1DHrP4donr4Es-3hoM1nOg7reLCX7aTRT?usp=sharing)
