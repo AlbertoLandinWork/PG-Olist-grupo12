@@ -1,16 +1,16 @@
 # Trabajo grupal PG-Olist
 ---
 ## Integrantes del grupo:
-- ![Alberto Landín](https://www.linkedin.com/in/albertolandin)
-- ![Daniel Castillo](https://www.linkedin.com/in/daniel-casvill/)
-- ![Federico Kostzer](https://www.linkedin.com/in/federico-kostzer/)
-- ![Mariano Rodas](https://www.linkedin.com/in/mariano-rodas-b93092136/)
+- [Alberto Landín](https://www.linkedin.com/in/albertolandin)
+- [Daniel Castillo](https://www.linkedin.com/in/daniel-casvill/)
+- [Federico Kostzer](https://www.linkedin.com/in/federico-kostzer/)
+- [Mariano Rodas](https://www.linkedin.com/in/mariano-rodas-b93092136/)
 ---
 ## Propuesta - E-Commerce Public Dataset by Olist
 
 Una empresa de E-Commerce de Argentina, esta evaluando la posibilidad de expandirse al Brasil, y para ello necesita entender como es el mercado de E-Commerce de alla. Para ello, se consiguio data de 100k de ordenes desde el 2016 hasta el 2018, de distintos puntos de venta en BRasil. Esto se puede ver desde distintas dimensiones, status de las ordenes, precios, pagos y perfomance de envios hacia los usuarios, productos e incluso reviws de los mismos escritos por diversos clientes. Asi mismo, se podra encontrar un archivo de geolocalizacion con todos los codigos postales de Brasil, junto con su latitud y longitud.
 
-![Repositorio del enunciado originial](https://github.com/soyHenry/DS-Proyecto_Grupal_Olist)
+[Repositorio del enunciado originial](https://github.com/soyHenry/DS-Proyecto_Grupal_Olist)
 
 ---
 # Ambientes de trabajo:
